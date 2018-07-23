@@ -11,7 +11,7 @@ default: &default
 
 development:
   <<: *default
-  database: go-teach_development
+#  database: go-teach_development
   host: localhost
   username: user
   database: app-dev
